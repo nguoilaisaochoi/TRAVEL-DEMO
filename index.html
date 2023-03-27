@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header">
+      <img id="logo" src="./img_vd/logo.jpg" alt="" />
+      <a href="#" onclick="showmenu()"><img id="vmenu" src="./img_vd/navmenu.jpg" /></a>
+      <div id="menu">
+        <li id="menucon">Live fully in Vietnam</li>
+        <li id="menucon">Places to go</li>
+        <li id="menucon">Things to do</li>
+        <li id="menucon">Plan your trip</li>
+        <li id="menucon">Green travel</li>
+        <li id="menucon">Travel offers</li>
+        <li id="menucon" onclick="addlang()" style="cursor: pointer">EN</li>
+        <li id="lang"><p style="margin-top: 10px">日本語</p></li>
+      </div>
+    </div>
+    <div id="vid">
+      <video width="100%" autoplay muted loop src="./img_vd/1.mp4"></video>
+    </div>
+    <div id="content">
+      <div id="cn1">
+        <p id="start">LIVE FULLY IN VIETNAM</p>
+        <p>Spectacular nature. Exceptional cuisine. Cultural diversity. Excellent service.</p>
+        <p>
+          Vietnam has fully reopened for international tourism without Covid-19 restrictions (No
+          vaccination certificate, No test requirements, No quarantine, No medical declaration) and
+          restored visa policies and immigration procedures as before Covid-19.
+        </p>
+        <p>
+          Now you are free to discover and enjoy various wild nature destinations like limestone
+          mountains, green terraced rice fields, and white sandy beaches. Holidays are coming, let’s
+          get away from it all.
+        </p>
+        <p>
+          Take in new sights, sounds, and flavors. Enjoy experiences that are truly memorable. Let’s
+          explore, relax, and play. Live fully in Vietnam.
+        </p>
+      </div>
+      <div id="cn2" class="row">
+        <div id="cn21" class="col-md-12 col-lg-6">
+          <div id="big">
+            <img src="./img_vd/cn21.jpg" alt="" />
+            <div id="tt">
+              <div id="tt1"><p>Culture</p></div>
+              <div id="tt2">
+                <p>A guide to the boat tours of Ninh Binh</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cn22" class="col-6 col-md-6 col-lg-3">
+          <div id="big">
+            <img src="./img_vd/cn22small.jpg" alt="" />
+            <div id="tt">
+              <div id="tt1"><p>Culture</p></div>
+              <div id="tt2">
+                <p>Enjoy the great outdoors in Ho Chi Minh City</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cn23" class="col-6 col-md-6 col-lg-3">
+          <div id="big">
+            <img src="./img_vd/cn23smal.jpg" alt="" />
+            <div id="tt">
+              <div id="tt1"><p>Luxury</p></div>
+              <div id="tt2">
+                <p>Comfort Meets Culture at Hanoi's Luxury Hotels</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cn24" class="col-lg-6">
+          <div id="big">
+            <img src="./img_vd/cn24.jpg" alt="" />
+            <div id="tt">
+              <div id="tt1"><p>Nature</p></div>
+              <div id="tt2">
+                <p>Binh Thuan: A Waterfall Paradise</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cn24" class="col-lg-6">
+          <div id="big">
+            <img src="./img_vd/cn25.jpg" alt="" />
+            <div id="tt">
+              <div id="tt1"><p>Adventure</p></div>
+              <div id="tt2">
+                <p>Vung Tau - A sightseeing wonderland</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="whaton">
+      <p style="font-size: 220%; color: #b2910e; text-transform: uppercase; font-weight: bold">
+        What on?
+      </p>
+      <p style="font-size: 140%; letter-spacing: 0.5px">Check out upcoming events in Vietnam</p>
+      <div id="event">
+        <div id="e1" class="ev">
+          <img src="./img_vd/e1.jpg" />
+          <div id="info">
+            <p>11 Mar 2023 - 13 Mar 2023</p>
+            <p id="info2">Ban Flower Festival</p>
+          </div>
+        </div>
+        <div id="e2" class="ev">
+          <img src="./img_vd/e2.jpeg" />
+          <div id="info">
+            <p>10 Mar 2023 - 14 Mar 2023</p>
+            <p id="info2">Buon Ma Thuot Coffee Festival</p>
+          </div>
+        </div>
+        <div id="e3" class="ev">
+          <img src="./img_vd/e3.jpeg" />
+          <div id="info">
+            <p>06 Mar 2023 - 11 Mar 2023</p>
+            <p id="info2">Huong Pagoda Festival</p>
+          </div>
+        </div>
+        <div id="e4" class="ev">
+          <img src="./img_vd/e4.jpeg" />
+          <div id="info">
+            <p>08 Mar 2023 - 10 Mar 2023</p>
+            <p id="info2">Da Nang Quan The Am Festival</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <div id="footer">
+      <div id="ctfooter" class="row">
+        <div id="ctfooter1" class="col-lg-6">
+          <li style="color: #b2910e; font-weight: bold; letter-spacing: 1px; font-size: 110%">
+            USEFUL LINKS
+          </li>
+          <li>Visas for Vietnam</li>
+          <li>Beginner Guide</li>
+          <li>FAQs</li>
+          <li>Sitemap</li>
+          <li>News & Media</li>
+          <li>Industry Resources</li>
+        </div>
+        <div id="ctfooter2" class="col-lg-6">
+          <img src="./img_vd/logo-bw.png" />
+          <p style="margin-top: 10px">
+            Welcome to the official website of Vietnam National Administration of Tourism. Visit our
+            social media pages for more travel inspiration.
+          </p>
+        </div>
+      </div>
+      <div id="about" class="row">
+        <li class="col-lg-6">© 2016 Official Website Vietnam Tourism</li>
+        <li class="col-lg-6">Email: contact@vietnamtourism.gov.vn</li>
+        <li class="col-lg-6">Privacy Policy</li>
+        <li class="col-lg-6">Terms & Conditions</li>
+      </div>
+    </div>
+  </body>
+</html>
