@@ -169,7 +169,7 @@
   #content {
     display: flex;
     width: 100%;
-    min-height: 400px;
+    min-height: 600px;
     background-color: aqua;
     margin: auto;
     flex-wrap: wrap;
@@ -200,9 +200,6 @@
   #cn22 #big img,
   #cn23 #big img {
     width: 140%;
-  }
-  #cn25 {
-    margin-bottom: 5%;
   }
   #big {
     width: 100%;
@@ -392,9 +389,7 @@
     overflow: hidden;
     display: flex;
   }
-  #cn25 {
-    margin-bottom: 2%;
-  }
+
   #big img {
     display: flex;
     height: 314px;

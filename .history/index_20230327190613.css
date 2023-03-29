@@ -201,9 +201,6 @@
   #cn23 #big img {
     width: 140%;
   }
-  #cn25 {
-    margin-bottom: 5%;
-  }
   #big {
     width: 100%;
     height: 90%;
@@ -392,9 +389,7 @@
     overflow: hidden;
     display: flex;
   }
-  #cn25 {
-    margin-bottom: 2%;
-  }
+
   #big img {
     display: flex;
     height: 314px;

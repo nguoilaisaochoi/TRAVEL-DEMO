@@ -196,13 +196,11 @@
     position: relative;
     overflow: hidden;
     display: flex;
+    margin-bottom: 30px;
   }
   #cn22 #big img,
   #cn23 #big img {
     width: 140%;
-  }
-  #cn25 {
-    margin-bottom: 5%;
   }
   #big {
     width: 100%;
@@ -392,9 +390,7 @@
     overflow: hidden;
     display: flex;
   }
-  #cn25 {
-    margin-bottom: 2%;
-  }
+
   #big img {
     display: flex;
     height: 314px;

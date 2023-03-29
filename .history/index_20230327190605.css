@@ -169,6 +169,7 @@
   #content {
     display: flex;
     width: 100%;
+    margin-bottom: 50px;
     min-height: 400px;
     background-color: aqua;
     margin: auto;
@@ -200,9 +201,6 @@
   #cn22 #big img,
   #cn23 #big img {
     width: 140%;
-  }
-  #cn25 {
-    margin-bottom: 5%;
   }
   #big {
     width: 100%;
@@ -392,9 +390,7 @@
     overflow: hidden;
     display: flex;
   }
-  #cn25 {
-    margin-bottom: 2%;
-  }
+
   #big img {
     display: flex;
     height: 314px;

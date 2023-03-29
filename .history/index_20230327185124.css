@@ -201,9 +201,6 @@
   #cn23 #big img {
     width: 140%;
   }
-  #cn25 {
-    margin-bottom: 5%;
-  }
   #big {
     width: 100%;
     height: 90%;
@@ -282,7 +279,6 @@
   #e4 {
     position: relative;
     z-index: 0;
-    margin: 1%;
   }
   #event div {
     width: 100%;
@@ -336,10 +332,9 @@
     line-height: 10px;
     color: white;
   }
-  #traveltips {
+  #traveltrip {
     width: 100%;
-    height: 300px;
-    background-color: #2525251d;
+    background-color: #252525;
   }
 }
 /*--------------TABLET--------------------*/
@@ -392,9 +387,7 @@
     overflow: hidden;
     display: flex;
   }
-  #cn25 {
-    margin-bottom: 2%;
-  }
+
   #big img {
     display: flex;
     height: 314px;

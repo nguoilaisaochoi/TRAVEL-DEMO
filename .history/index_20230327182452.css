@@ -201,9 +201,6 @@
   #cn23 #big img {
     width: 140%;
   }
-  #cn25 {
-    margin-bottom: 5%;
-  }
   #big {
     width: 100%;
     height: 90%;
@@ -282,7 +279,6 @@
   #e4 {
     position: relative;
     z-index: 0;
-    margin: 1%;
   }
   #event div {
     width: 100%;
@@ -315,8 +311,8 @@
     cursor: pointer;
     display: flex;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 90%;
     height: 50px;
     background-color: #a5190e;
@@ -335,11 +331,6 @@
     margin-top: 4%;
     line-height: 10px;
     color: white;
-  }
-  #traveltips {
-    width: 100%;
-    height: 300px;
-    background-color: #2525251d;
   }
 }
 /*--------------TABLET--------------------*/
@@ -392,9 +383,7 @@
     overflow: hidden;
     display: flex;
   }
-  #cn25 {
-    margin-bottom: 2%;
-  }
+
   #big img {
     display: flex;
     height: 314px;
@@ -427,15 +416,7 @@
     border-radius: 5px;
   }
   #allev {
-    width: 25%;
-  }
-  #allev1 {
-    width: 96%;
-    height: 83%;
-    display: flex;
-  }
-  #allev1 p {
-    margin: auto;
+    width: 30%;
   }
 }
 /*--------------DESKTOP--------------------*/
@@ -550,12 +531,5 @@
   }
   .ev:hover > img {
     scale: 1.1;
-  }
-  #allev {
-    width: 15%;
-  }
-  #allev1 {
-    width: 97%;
-    height: 83%;
   }
 }
