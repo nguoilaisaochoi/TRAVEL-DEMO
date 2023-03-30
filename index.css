@@ -338,8 +338,96 @@
   }
   #traveltips {
     width: 100%;
-    height: 300px;
-    background-color: #2525251d;
+    min-height: 100px;
+    padding-bottom: 1%;
+    text-align: center;
+  }
+  #txttravel {
+    font-size: 220%;
+    color: #b2910e;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #txtprepare {
+    letter-spacing: 1px;
+  }
+  #tips,
+  #tipss {
+    width: 100%;
+    height: 130px;
+    margin-top: 2%;
+  }
+  #tipss {
+    margin-bottom: 3%;
+  }
+  #tips p,
+  #tipss p {
+    margin-top: 10px;
+    font-size: 110%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  #t1,
+  #t2,
+  #t3,
+  #t5 {
+    width: 25%;
+  }
+  #t4 {
+    width: 19%;
+  }
+  #sharestory {
+    width: 100%;
+    min-height: 100px;
+    padding-bottom: 1%;
+    background-color: #ebebeb;
+    text-align: center;
+  }
+  #txtshare {
+    position: relative;
+    top: 10px;
+    font-size: 160%;
+    color: #b2910e;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #txttag {
+    position: relative;
+    top: 10px;
+    letter-spacing: 1px;
+  }
+  #story,
+  #story2,
+  #story3 {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  #viewmore {
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 50px;
+    background-color: #a5190e;
+    background-image: url(./img_vd/bg-red-tl.png), url(./img_vd/bg-red-tr.png),
+      url(./img_vd/bg-red-br.png), url(./img_vd/bg-red-bl.png);
+    background-repeat: no-repeat;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+  }
+  #viewmore1 {
+    width: 98%;
+    margin: auto;
+    border: 1px solid #ffcc00;
+    text-transform: uppercase;
+  }
+  #viewmore p {
+    margin-top: 4%;
+    line-height: 10px;
+    color: white;
   }
 }
 /*--------------TABLET--------------------*/
@@ -436,6 +524,36 @@
   }
   #allev1 p {
     margin: auto;
+  }
+  #t1,
+  #t2,
+  #t3,
+  #t5 {
+    width: 15%;
+  }
+  #t4 {
+    width: 10%;
+  }
+  #viewmore {
+    width: 25%;
+  }
+  #viewmore1 {
+    width: 96%;
+    height: 83%;
+    display: flex;
+  }
+  #viewmore1 p {
+    margin: auto;
+  }
+  #txtshare {
+    font-size: 220%;
+  }
+  #txttag {
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+  }
+  #traveltips {
+    padding-bottom: 2%;
   }
 }
 /*--------------DESKTOP--------------------*/
@@ -555,6 +673,81 @@
     width: 15%;
   }
   #allev1 {
+    width: 97%;
+    height: 83%;
+  }
+  #txtprepare {
+    margin-bottom: 4%;
+  }
+  #traveltips {
+    padding: 3%;
+  }
+  #TIPS {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+  }
+  #tips,
+  #tipss {
+    width: 12%;
+    height: 100px;
+    margin: auto;
+    transition: 0.2s ease;
+    cursor: pointer;
+  }
+  #tipss:hover,
+  #tips:hover {
+    color: #ffcc00;
+  }
+  #tips:hover img,
+  #tipss:hover img {
+    transform: rotateZ(-7deg);
+  }
+  #t1 {
+    width: 92%;
+    transition: 0.2s ease;
+  }
+  #t2,
+  #t3 {
+    width: 100%;
+    transition: 0.2s ease;
+  }
+  #t4 {
+    width: 55%;
+    transition: 0.2s ease;
+  }
+  #t5 {
+    width: 82%;
+    transition: 0.2s ease;
+  }
+  #sharestory {
+    position: relative;
+  }
+  #story,
+  #story2 {
+    width: 90%;
+  }
+  #story2 {
+    margin-bottom: 0px;
+  }
+  #s1,
+  #s2 {
+    height: 211.88px;
+  }
+  #s3 {
+    width: 45%;
+    position: absolute;
+    top: 0;
+    margin-top: 118px;
+    margin-left: 50%;
+    height: 469px;
+  }
+  #viewmore {
+    width: 15%;
+  }
+  #viewmore1 {
     width: 97%;
     height: 83%;
   }
